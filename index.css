@@ -1,1 +1,39 @@
 /* Put your style information here! */
+
+html {
+  background-color: #AC3B61;
+  padding-left: 10vw;
+}
+
+body {
+  max-width: 80vw;
+  padding: 2vw;
+  align-items: center;
+  align-content: center;
+  background-color: #FDF5F1;
+}
+
+img {
+  max-width: 100%;
+}
+
+iframe {
+  width: 1000px;
+  height: 600px;
+}
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px grey;
+  margin-bottom: 8px;
+  max-width: 100%;
+}
+
+.image-card p {
+  margin-top: 8px;
+  font-style: italic;
+}
